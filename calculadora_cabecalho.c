@@ -30,4 +30,6 @@ int main(){
 	printf("\nSubtracao:%.f", subtracao);
 	printf("\nDivisao:%.2f", divisao);
 	printf("\nMultiplicacao:%.2f",multiplicacao);
+
+	return 0;
 }
