@@ -1,35 +1,44 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void cabecalho(){
+	system("cls || clear");
+	printf("\n=== SENAI ===\n");
+}
+
 int main() {
 	char nome[200];
 	int idade;
 	float primeiraNota, segundaNota, terceiraNota, quartaNota;
 	float media;
 	
+	cabecalho();
 	printf("Digite seu nome: ");
 	scanf("%s",&nome);
 	
+	cabecalho();
 	printf("Digite sua idade: ");
 	scanf("%i",&idade);
 	
-	system("cls || clear");
-	
+	cabecalho();
 	printf("Digite sua primeira nota: ");
 	scanf("%f",&primeiraNota);
 	
+	cabecalho();
 	printf("Digite sua segunda nota: ");
 	scanf("%f",&segundaNota);
 	
+	cabecalho();
 	printf("Digite sua terceira nota: ");
 	scanf("%f",&terceiraNota);
 	
+	cabecalho();
 	printf("Digite sua quarta nota: ");
 	scanf("%f",&quartaNota);
 	
 	media = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4;
 	
-	system("cls || clear");
+	cabecalho();
 	printf("\n=== Exibir Resultados ===\n");
 	printf("\nNome:%s", nome);
 	printf("\nIdade:%i ", idade);
