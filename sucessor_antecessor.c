@@ -20,4 +20,6 @@ int main(){
 	cabecalho();
 	printf("\nSucessor:%i", sucessor);
 	printf("\nAntecessor:%i", antecessor);
+
+	return 0;
 }
